@@ -19,16 +19,39 @@ header {
 
 body {
 	margin: 0;
-	background-color: #603813;
+	background-color: #ffffff;
 }
 
 main {
 	margin: 0;
-	color: #ffffff;
+	color: #000000;
 	text-align: center;
 }
 
 main h1 {
 	font-size: 4rem;
 	margin: 0;
+}
+
+main h2 {
+	font-size: 3rem;
+	margin: 0;
+}
+
+.menuImage {
+	border-radius: 15px;
+	width: calc(100% - 100px);
+	height: auto;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	background-color: #603813;
+	color: #ffffff;
+}
+
+.blurb {
+	max-width: 500px;
+	margin-inline: auto;
 }
