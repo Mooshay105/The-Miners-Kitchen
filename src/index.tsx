@@ -1,12 +1,15 @@
 import { createRoot } from "react-dom/client";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import CustomBreak from "./components/CustomBreak";
 import logo from "./assets/logo.png";
 import menu1 from "./assets/Menu1.png";
 import menu2 from "./assets/Menu2.png";
 import "./assets/main.css";
+
 function App() {
 	return (
 		<div className="App">
+			<SpeedInsights />
 			<header>
 				<img src={logo} width="75" height="50" />
 				<h1>The Miners Kitchen</h1>
